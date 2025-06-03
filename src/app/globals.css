@@ -132,3 +132,64 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+
+/* App Container */
+.app-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Watchface (Main Container) */
+.watchface {
+  width: 400px;
+  height: 500px;
+  background-color: #27272a; /* Equivalent to bg-zinc-900 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Draggable Grid */
+.draggable-grid {
+  background-color: #27272a;
+  min-width: 600px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 16px;
+}
+
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0px; /* Equivalent to gap-x-34 */
+  position: relative;
+}
+
+/* Icons */
+.icon {
+  width: 128px; /* Equivalent to w-32 */
+  height: 128px; /* Equivalent to h-32 */
+  background-color: #3b82f6; /* Equivalent to bg-blue-500 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+}
+
+/* Offset Row */
+.offset {
+  margin-left: 64px; /* Equivalent to ml-16 */
+}
