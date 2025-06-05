@@ -1,7 +1,6 @@
-import { ChangeLanguage } from "../ui/ChooseLanguage";
 
 
-export default function SpanishLayout({ children }) {
+export default function Layout({ children }) {
   return (
     <div>
         {children}

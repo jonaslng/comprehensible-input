@@ -2,15 +2,18 @@
     "languages": [
         { 
             "code": "us", 
-            "name": "English" 
+            "name": "English", 
+            "no_content": true
         },
         { 
             "code": "es", 
-            "name": "Spanish" 
+            "name": "Spanish",
+            "no_content": true 
         },
         { 
             "code": "de", 
-            "name": "German" 
+            "name": "German",
+            "no_content": true 
         }
     ]
 }
